@@ -10,24 +10,10 @@ import {Atoms} from '@store';
 import {Colors, CustomSpacing} from '@styles';
 
 import {GET_SPECIES_URL} from './Detail.Api';
+import {PropsType, ChainProps} from './Detail.types';
 
 import styles from './Detail.style';
 import axios, {AxiosResponse} from 'axios';
-
-type PropsType = {
-  route: {
-    key: string;
-    name: string;
-    path: string | undefined;
-    params: {
-      url: string;
-    };
-  };
-};
-
-type ChainProps = {
-  name: string;
-};
 
 const ChainEvolveComponent = (props: ChainProps) => {
   const chainEvolveState = useRecoilValue(Atoms.chainEvolveState);
