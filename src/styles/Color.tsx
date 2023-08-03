@@ -2,13 +2,22 @@
 export const BLACK = '#000000';
 export const WHITE = '#FFFFFF';
 
-// Gray
-export const GRAY100 = '#F7FAFC';
-export const GRAY200 = '#EDF2F7';
-export const GRAY300 = '#E2E8F0';
-export const GRAY400 = '#CBD5E0';
-export const GRAY500 = '#A0AEC0';
-export const GRAY600 = '#718096';
-export const GRAY700 = '#4A5568';
-export const GRAY800 = '#2D3748';
-export const GRAY900 = '#1A202C';
+export const RED100 = '#FFF5F5';
+export const RED200 = '#FED7D7';
+export const RED300 = '#FEB2B2';
+export const RED400 = '#FC8181';
+export const RED500 = '#F56565';
+export const RED600 = '#E53E3E';
+export const RED700 = '#C53030';
+export const RED800 = '#9B2C2C';
+export const RED900 = '#742A2A';
+
+export const YELLOW100 = '#FFFFF0';
+export const YELLOW200 = '#FEFCBF';
+export const YELLOW300 = '#FAF089';
+export const YELLOW400 = '#F6E05E';
+export const YELLOW500 = '#ECC94B';
+export const YELLOW600 = '#D69E2E';
+export const YELLOW700 = '#B7791F';
+export const YELLOW800 = '#975A16';
+export const YELLOW900 = '#744210';

@@ -10,7 +10,9 @@
           "@router": "./src/router",
           "@components": "./src/components",
           "@styles": "./src/styles",
-          "@recoil": "./src/recoil"
+          "@store": "./src/store",
+          "@config": "./src/config",
+          "@hooks": "./src/hooks"
         }
       }
     ]

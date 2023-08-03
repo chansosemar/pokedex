@@ -1,10 +1,13 @@
 import React from 'react';
 import Router from '@router';
+import {RecoilRoot} from 'recoil';
 
 const App = () => {
   return (
     <>
-      <Router />
+      <RecoilRoot>
+        <Router />
+      </RecoilRoot>
     </>
   );
 };

@@ -24,8 +24,12 @@
       "@router/*": ["./src/router/*"],
       "@styles": ["./src/styles"],
       "@styles/*": ["./src/styles/*"],
-      "@recoil": ["./src/recoil"],
-      "@recoil/*": ["./src/recoil/*"]
+      "@store": ["src/store"],
+      "@store/*": ["src/store/*"],
+      "@config": ["./src/config"],
+      "@config/*": ["./src/config/*"],
+      "@hooks": ["./src/hooks"],
+      "@hooks/*": ["./src/hooks/*"]
     }
   },
   "exclude": [
